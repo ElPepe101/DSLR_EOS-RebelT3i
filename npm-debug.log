@@ -1,0 +1,1417 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'exec-sync' ]
+2 info using npm@1.2.2
+3 info using node@v0.8.17
+4 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/package.json
+5 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/gphoto2/package.json
+6 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/underscore/package.json
+7 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/package.json
+8 verbose cache add [ 'exec-sync', null ]
+9 verbose cache add name=undefined spec="exec-sync" args=["exec-sync",null]
+10 verbose parsed url { pathname: 'exec-sync', path: 'exec-sync', href: 'exec-sync' }
+11 silly lockFile 6ecdfd3b-exec-sync exec-sync
+12 verbose lock exec-sync /Users/aunsoyjoven/.npm/6ecdfd3b-exec-sync.lock
+13 silly lockFile 6ecdfd3b-exec-sync exec-sync
+14 verbose addNamed [ 'exec-sync', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile d058e612-exec-sync exec-sync@
+17 verbose lock exec-sync@ /Users/aunsoyjoven/.npm/d058e612-exec-sync.lock
+18 silly addNameRange { name: 'exec-sync', range: '', hasData: false }
+19 verbose url raw exec-sync
+20 verbose url resolving [ 'https://registry.npmjs.org/', './exec-sync' ]
+21 verbose url resolved https://registry.npmjs.org/exec-sync
+22 info trying registry request attempt 1 at 16:13:19
+23 verbose etag "39ERSYJJDCBWVYX7Y1D512G6T"
+24 http GET https://registry.npmjs.org/exec-sync
+25 http 304 https://registry.npmjs.org/exec-sync
+26 silly registry.get cb [ 304,
+26 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+26 silly registry.get     etag: '"39ERSYJJDCBWVYX7Y1D512G6T"',
+26 silly registry.get     date: 'Tue, 22 Jan 2013 22:12:45 GMT',
+26 silly registry.get     'content-length': '0' } ]
+27 verbose etag exec-sync from cache
+28 silly addNameRange number 2 { name: 'exec-sync', range: '', hasData: true }
+29 silly addNameRange versions [ 'exec-sync',
+29 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5' ] ]
+30 verbose addNamed [ 'exec-sync', '0.1.5' ]
+31 verbose addNamed [ '0.1.5', '0.1.5' ]
+32 silly lockFile afa9e496-exec-sync-0-1-5 exec-sync@0.1.5
+33 verbose lock exec-sync@0.1.5 /Users/aunsoyjoven/.npm/afa9e496-exec-sync-0-1-5.lock
+34 verbose read json /Users/aunsoyjoven/.npm/exec-sync/0.1.5/package/package.json
+35 silly lockFile afa9e496-exec-sync-0-1-5 exec-sync@0.1.5
+36 silly lockFile d058e612-exec-sync exec-sync@
+37 silly resolved [ { name: 'exec-sync',
+37 silly resolved     version: '0.1.5',
+37 silly resolved     description: 'Execute shell command synchronously. Use this for migration scripts, cli programs, but not for regular server code.',
+37 silly resolved     keywords: [ 'exec', 'sync', 'synchronously', 'synchronous', 'shell' ],
+37 silly resolved     author: { name: 'Jeremy Faivre', email: 'contact@jeremyfa.com' },
+37 silly resolved     main: './bin/index.js',
+37 silly resolved     dependencies: { ffi: '=1.1.2' },
+37 silly resolved     devDependencies: { 'coffee-script': '>=1.2.0', findit: '>=0.1.2' },
+37 silly resolved     repository:
+37 silly resolved      { type: 'git',
+37 silly resolved        url: 'git://github.com/jeremyfa/node-exec-sync.git' },
+37 silly resolved     readme: '# exec-sync\n\nExecute shell command synchronously. Use this for migration scripts, cli programs, but not for regular server code.\n\n## Installation\n\n### Installing npm (node package manager)\n``` bash\n$ curl http://npmjs.org/install.sh | sh\n```\n\n### Installing exec-sync\n``` bash\n$ cd /path/to/your/project\n$ [sudo] npm install exec-sync\n```\n\n### Using exec-sync from node.js\nWarning: use only for special operation or command line scripts written with node. Don\'t use this for regular server code or it will ruin the responsiveness of your server.\n\n``` js\nvar execSync = require(\'exec-sync\');\n\nvar user = execSync(\'echo $USER\');\nconsole.log(user);\n```\n\nBy default, an Error is thrown if stderr is not empty. Alternatively, the function can return an object with both `stdout` and `stderr` as properties by passing `true` as a second argument (`returnOutAndErr`).\n\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011-2012 Jérémy Faivre &lt;contact@jeremyfa.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+37 silly resolved     readmeFilename: 'README.md',
+37 silly resolved     _id: 'exec-sync@0.1.5',
+37 silly resolved     _from: 'exec-sync@' } ]
+38 info install exec-sync@0.1.5 into /Users/aunsoyjoven/Documents/NodeJS/DSLR
+39 info installOne exec-sync@0.1.5
+40 verbose from cache /Users/aunsoyjoven/.npm/exec-sync/0.1.5/package/package.json
+41 info /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync unbuild
+42 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/package.json
+43 verbose tar unpack /Users/aunsoyjoven/.npm/exec-sync/0.1.5/package.tgz
+44 silly lockFile 3de7d0e6-deJS-DSLR-node-modules-exec-sync /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync
+45 verbose lock /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync /Users/aunsoyjoven/.npm/3de7d0e6-deJS-DSLR-node-modules-exec-sync.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm extractEntry README.md
+50 silly gunzTarPerm extractEntry bin/index.js
+51 silly gunzTarPerm extractEntry Cakefile
+52 silly gunzTarPerm extractEntry src/index.coffee
+53 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/package.json
+54 silly lockFile 3de7d0e6-deJS-DSLR-node-modules-exec-sync /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync
+55 info preinstall exec-sync@0.1.5
+56 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/package.json
+57 verbose readDependencies using package.json deps
+58 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/package.json
+59 verbose readDependencies using package.json deps
+60 verbose cache add [ 'ffi@=1.1.2', null ]
+61 verbose cache add name=undefined spec="ffi@=1.1.2" args=["ffi@=1.1.2",null]
+62 verbose parsed url { pathname: 'ffi@=1.1.2',
+62 verbose parsed url   path: 'ffi@=1.1.2',
+62 verbose parsed url   href: 'ffi@=1.1.2' }
+63 verbose cache add name="ffi" spec="=1.1.2" args=["ffi","=1.1.2"]
+64 verbose parsed url { pathname: '=1.1.2', path: '=1.1.2', href: '=1.1.2' }
+65 verbose addNamed [ 'ffi', '=1.1.2' ]
+66 verbose addNamed [ '1.1.2', '=1.1.2' ]
+67 silly lockFile 8f1ec5d7-ffi-1-1-2 ffi@=1.1.2
+68 verbose lock ffi@=1.1.2 /Users/aunsoyjoven/.npm/8f1ec5d7-ffi-1-1-2.lock
+69 verbose url raw ffi/1.1.2
+70 verbose url resolving [ 'https://registry.npmjs.org/', './ffi/1.1.2' ]
+71 verbose url resolved https://registry.npmjs.org/ffi/1.1.2
+72 info trying registry request attempt 1 at 16:13:20
+73 verbose etag "5Z1KSSS4LXP77G14WJ6344DJR"
+74 http GET https://registry.npmjs.org/ffi/1.1.2
+75 http 304 https://registry.npmjs.org/ffi/1.1.2
+76 silly registry.get cb [ 304,
+76 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+76 silly registry.get     etag: '"5Z1KSSS4LXP77G14WJ6344DJR"',
+76 silly registry.get     date: 'Tue, 22 Jan 2013 22:12:45 GMT',
+76 silly registry.get     'content-length': '0' } ]
+77 verbose etag ffi/1.1.2 from cache
+78 verbose read json /Users/aunsoyjoven/.npm/ffi/1.1.2/package/package.json
+79 silly lockFile 8f1ec5d7-ffi-1-1-2 ffi@=1.1.2
+80 silly resolved [ { name: 'ffi',
+80 silly resolved     version: '1.1.2',
+80 silly resolved     authors:
+80 silly resolved      [ 'Rick Branson',
+80 silly resolved        'Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)' ],
+80 silly resolved     description: 'A foreign function interface (FFI) for Node.js',
+80 silly resolved     homepage: 'http://github.com/rbranson/node-ffi',
+80 silly resolved     engines: { node: '>=0.6.0' },
+80 silly resolved     main: './lib/ffi',
+80 silly resolved     dependencies: { bindings: '*', debug: '*', ref: '*', 'ref-struct': '*' },
+80 silly resolved     devDependencies: { 'expect.js': '*', mocha: '*' },
+80 silly resolved     scripts:
+80 silly resolved      { test: 'node-gyp rebuild --directory test && mocha -gc --reporter spec',
+80 silly resolved        install: 'node-gyp rebuild' },
+80 silly resolved     repository: { type: 'git', url: 'http://github.com/rbranson/node-ffi.git' },
+80 silly resolved     bugs: { url: 'http://github.com/rbranson/node-ffi/issues' },
+80 silly resolved     gypfile: true,
+80 silly resolved     readme: 'node-ffi\n========\n### Node.js Foreign Function Interface [![Build Status](https://secure.travis-ci.org/rbranson/node-ffi.png)](http://travis-ci.org/rbranson/node-ffi)\n\n`node-ffi` is a Node.js addon for loading and calling dynamic libraries using\npure JavaScript. It can be used to create bindings to native libraries without\nwriting any C++ code.\n\nIt also simplifies the augmentation of node.js with C code as it takes care of\nhandling the translation of types across JavaScript and C, which can add reams\nof boilerplate code to your otherwise simple C. See the `example/factorial`\nfor an example of this use case.\n\n**WARNING**: node-ffi assumes you know what you\'re doing. You can pretty easily\ncreate situations where you will segfault the interpreter and unless you\'ve got\nC debugger skills, you probably won\'t know what\'s going on.\n\nExample\n-------\n\n``` js\nvar ffi = require(\'ffi\');\n\nvar libm = ffi.Library(\'libm\', {\n  \'ceil\': [ \'double\', [ \'double\' ] ]\n});\nlibm.ceil(1.5); // 2\n\n// You can also access just functions in the current process by passing a null\nvar current = ffi.Library(null, {\n  \'atoi\': [ \'int\', [ \'string\' ] ]\n});\ncurrent.atoi(\'1234\'); // 1234\n```\n\nFor a more detailed introduction, see the [node-ffi tutorial page][tutorial].\n\nRequirements\n------------\n\n * Linux, OS X, Windows, or Solaris.\n * `libffi` comes bundled with node-ffi; it does *not* need to be installed on your system.\n * The current version is tested to run on node v0.6, v0.7, and v0.8.\n\nInstallation\n------------\n\nMake sure you\'ve installed all the [necessary build\ntools](https://github.com/TooTallNate/node-gyp#installation) for your platform,\nthen invoke:\n\n``` bash\n$ npm install ffi\n```\n\nSource Install / Manual Compilation\n-----------------------------------\n\nTo compile from source it\'s easiest to use\n[`node-gyp`](https://github.com/TooTallNate/node-gyp):\n\n``` bash\n$ npm install -g node-gyp\n```\n\nNow you can compile `node-ffi`:\n\n``` bash\n$ git clone git://github.com/rbranson/node-ffi.git\n$ cd node-ffi\n$ node-gyp rebuild\n```\n\nTypes\n-----\n\nThe types that you specify in function declarations correspond to ref\'s types\nsystem. So [see its docs][ref-types] for\na reference if you are unfamiliar.\n\nV8 and 64-bit Types\n-------------------\n\nInternally, V8 stores integers that will fit into a 32-bit space in a 32-bit\ninteger, and those that fall outside of this get put into double-precision\nfloating point numbers. This is problematic because FP numbers are imprecise.\nTo get around this, the methods in node-ffi that deal with 64-bit integers return\nstrings and can accept strings as parameters.\n\nCall Overhead\n-------------\n\nThere is non-trivial overhead associated with FFI calls. Comparing a hard-coded\nbinding version of `strtoul()` to an FFI version of `strtoul()` shows that the\nnative hard-coded binding is orders of magnitude faster. So don\'t just use the\nC version of a function just because it\'s faster. There\'s a significant cost in\nFFI calls, so make them worth it.\n\nLicense\n-------\n\nMIT License. See the `LICENSE` file.\n\n[v1apichanges]: https://github.com/rbranson/node-ffi/wiki/API-changes-from-v0.x-to-v1.x\n[tutorial]: https://github.com/rbranson/node-ffi/wiki/Node-FFI-Tutorial\n[ref-types]: https://github.com/TooTallNate/ref#built-in-types\n',
+80 silly resolved     readmeFilename: 'README.md',
+80 silly resolved     _id: 'ffi@1.1.2',
+80 silly resolved     _from: 'ffi@=1.1.2' } ]
+81 info install ffi@1.1.2 into /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync
+82 info installOne ffi@1.1.2
+83 verbose from cache /Users/aunsoyjoven/.npm/ffi/1.1.2/package/package.json
+84 info /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi unbuild
+85 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/package.json
+86 verbose tar unpack /Users/aunsoyjoven/.npm/ffi/1.1.2/package.tgz
+87 silly lockFile 1be8b902-dules-exec-sync-node-modules-ffi /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi
+88 verbose lock /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi /Users/aunsoyjoven/.npm/1be8b902-dules-exec-sync-node-modules-ffi.lock
+89 silly gunzTarPerm modes [ '755', '644' ]
+90 silly gunzTarPerm extractEntry package.json
+91 silly gunzTarPerm extractEntry .npmignore
+92 silly gunzTarPerm extractEntry README.md
+93 silly gunzTarPerm extractEntry LICENSE
+94 silly gunzTarPerm extractEntry t.js
+95 silly gunzTarPerm extractEntry example/sqlite.js
+96 silly gunzTarPerm extractEntry example/factorial/README
+97 silly gunzTarPerm extractEntry example/factorial/factorial.js
+98 silly gunzTarPerm extractEntry example/factorial/factorial.c
+99 silly gunzTarPerm extractEntry History.md
+100 silly gunzTarPerm extractEntry .travis.yml
+101 silly gunzTarPerm extractEntry test/variadic.js
+102 silly gunzTarPerm extractEntry test/cif.js
+103 silly gunzTarPerm extractEntry test/dynamic_library.js
+104 silly gunzTarPerm extractEntry test/errno.js
+105 silly gunzTarPerm extractEntry test/callback.js
+106 silly gunzTarPerm extractEntry test/foreign_function.js
+107 silly gunzTarPerm extractEntry test/library.js
+108 silly gunzTarPerm extractEntry test/objc.js
+109 silly gunzTarPerm extractEntry test/types.js
+110 silly gunzTarPerm extractEntry test/binding.gyp
+111 silly gunzTarPerm extractEntry test/ffi_tests.cc
+112 silly gunzTarPerm extractEntry binding.gyp
+113 silly gunzTarPerm extractEntry deps/dlfcn-win32/README
+114 silly gunzTarPerm extractEntry deps/dlfcn-win32/configure
+115 silly gunzTarPerm extractEntry deps/dlfcn-win32/COPYING
+116 silly gunzTarPerm extractEntry deps/dlfcn-win32/dlfcn.c
+117 silly gunzTarPerm extractEntry deps/dlfcn-win32/dlfcn.gyp
+118 silly gunzTarPerm extractEntry deps/dlfcn-win32/dlfcn.h
+119 silly gunzTarPerm extractEntry deps/dlfcn-win32/test.c
+120 silly gunzTarPerm extractEntry deps/dlfcn-win32/testdll.c
+121 silly gunzTarPerm extractEntry deps/libffi/.npmignore
+122 silly gunzTarPerm extractEntry deps/libffi/README
+123 silly gunzTarPerm extractEntry deps/libffi/LICENSE
+124 silly gunzTarPerm extractEntry deps/libffi/ChangeLog
+125 silly gunzTarPerm extractEntry deps/libffi/ChangeLog.libffi
+126 silly gunzTarPerm extractEntry deps/libffi/ChangeLog.libgcj
+127 silly gunzTarPerm extractEntry deps/libffi/ChangeLog.v1
+128 silly gunzTarPerm extractEntry deps/libffi/closure.c
+129 silly gunzTarPerm extractEntry deps/libffi/compile
+130 silly gunzTarPerm extractEntry deps/libffi/config/README
+131 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/ffi.h
+132 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/fficonfig.h
+133 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/ffitarget.h
+134 silly gunzTarPerm extractEntry deps/libffi/config/linux/arm/flags.txt
+135 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/ffi.h
+136 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/fficonfig.h
+137 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/ffitarget.h
+138 silly gunzTarPerm extractEntry deps/libffi/config/linux/ia32/flags.txt
+139 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/ffi.h
+140 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/fficonfig.h
+141 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/ffitarget.h
+142 silly gunzTarPerm extractEntry deps/libffi/config/linux/x64/flags.txt
+143 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/ffi.h
+144 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/fficonfig.h
+145 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/ffitarget.h
+146 silly gunzTarPerm extractEntry deps/libffi/config/mac/ia32/flags.txt
+147 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/ffi.h
+148 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/fficonfig.h
+149 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/ffitarget.h
+150 silly gunzTarPerm extractEntry deps/libffi/config/mac/x64/flags.txt
+151 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/ffi.h
+152 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/fficonfig.h
+153 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/ffitarget.h
+154 silly gunzTarPerm extractEntry deps/libffi/config/solaris/ia32/flags.txt
+155 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/ffi.h
+156 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/fficonfig.h
+157 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/ffitarget.h
+158 silly gunzTarPerm extractEntry deps/libffi/config/solaris/x64/flags.txt
+159 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/ffi.h
+160 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/fficonfig.h
+161 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/ffitarget.h
+162 silly gunzTarPerm extractEntry deps/libffi/config/win/ia32/flags.txt
+163 silly gunzTarPerm extractEntry deps/libffi/config/win/x64/ffi.h
+164 silly gunzTarPerm extractEntry deps/libffi/config/win/x64/fficonfig.h
+165 silly gunzTarPerm extractEntry deps/libffi/config/win/x64/ffitarget.h
+166 silly gunzTarPerm extractEntry deps/libffi/config.guess
+167 silly gunzTarPerm extractEntry deps/libffi/config.sub
+168 silly gunzTarPerm extractEntry deps/libffi/configure
+169 silly gunzTarPerm extractEntry deps/libffi/configure.ac
+170 silly gunzTarPerm extractEntry deps/libffi/configure.host
+171 silly gunzTarPerm extractEntry deps/libffi/depcomp
+172 silly gunzTarPerm extractEntry deps/libffi/doc/libffi.info
+173 silly gunzTarPerm extractEntry deps/libffi/doc/libffi.texi
+174 silly gunzTarPerm extractEntry deps/libffi/doc/stamp-vti
+175 silly gunzTarPerm extractEntry deps/libffi/doc/version.texi
+176 silly gunzTarPerm extractEntry deps/libffi/fficonfig.h.in
+177 silly gunzTarPerm extractEntry deps/libffi/generate-ios-source-and-headers.py
+178 silly gunzTarPerm extractEntry deps/libffi/generate-osx-source-and-headers.py
+179 silly gunzTarPerm extractEntry deps/libffi/acinclude.m4
+180 silly gunzTarPerm extractEntry deps/libffi/install-sh
+181 silly gunzTarPerm extractEntry deps/libffi/libffi.gyp
+182 silly gunzTarPerm extractEntry deps/libffi/libffi.pc.in
+183 silly gunzTarPerm extractEntry deps/libffi/libffi.xcodeproj/project.pbxproj
+184 silly gunzTarPerm extractEntry deps/libffi/libtool-version
+185 silly gunzTarPerm extractEntry deps/libffi/texinfo.tex
+186 silly gunzTarPerm extractEntry deps/libffi/ltmain.sh
+187 silly gunzTarPerm extractEntry deps/libffi/m4/ax_gcc_archflag.m4
+188 silly gunzTarPerm extractEntry deps/libffi/m4/asmcfi.m4
+189 silly gunzTarPerm extractEntry deps/libffi/m4/ax_cflags_warn_all.m4
+190 silly gunzTarPerm extractEntry deps/libffi/m4/ax_compiler_vendor.m4
+191 silly gunzTarPerm extractEntry deps/libffi/m4/ax_configure_args.m4
+192 silly gunzTarPerm extractEntry deps/libffi/m4/ax_enable_builddir.m4
+193 silly gunzTarPerm extractEntry deps/libffi/m4/ax_cc_maxopt.m4
+194 silly gunzTarPerm extractEntry deps/libffi/m4/ax_gcc_x86_cpuid.m4
+195 silly gunzTarPerm extractEntry deps/libffi/m4/libtool.m4
+196 silly gunzTarPerm extractEntry deps/libffi/m4/ltoptions.m4
+197 silly gunzTarPerm extractEntry deps/libffi/m4/ltsugar.m4
+198 silly gunzTarPerm extractEntry deps/libffi/m4/ltversion.m4
+199 silly gunzTarPerm extractEntry deps/libffi/m4/lt~obsolete.m4
+200 silly gunzTarPerm extractEntry deps/libffi/Makefile.am
+201 silly gunzTarPerm extractEntry deps/libffi/Makefile.in
+202 silly gunzTarPerm extractEntry deps/libffi/man/ffi.3
+203 silly gunzTarPerm extractEntry deps/libffi/man/ffi_call.3
+204 silly gunzTarPerm extractEntry deps/libffi/man/ffi_prep_cif.3
+205 silly gunzTarPerm extractEntry deps/libffi/man/ffi_prep_cif_var.3
+206 silly gunzTarPerm extractEntry deps/libffi/man/Makefile.am
+207 silly gunzTarPerm extractEntry deps/libffi/man/Makefile.in
+208 silly gunzTarPerm extractEntry deps/libffi/mdate-sh
+209 silly gunzTarPerm extractEntry deps/libffi/missing
+210 silly gunzTarPerm extractEntry deps/libffi/msvcc.sh
+211 silly gunzTarPerm extractEntry deps/libffi/aclocal.m4
+212 silly gunzTarPerm extractEntry deps/libffi/src/mips/ffi.c
+213 silly gunzTarPerm extractEntry deps/libffi/src/mips/ffitarget.h
+214 silly gunzTarPerm extractEntry deps/libffi/src/mips/n32.S
+215 silly gunzTarPerm extractEntry deps/libffi/src/mips/o32.S
+216 silly gunzTarPerm extractEntry deps/libffi/src/alpha/ffi.c
+217 silly gunzTarPerm extractEntry deps/libffi/src/alpha/ffitarget.h
+218 silly gunzTarPerm extractEntry deps/libffi/src/alpha/osf.S
+219 silly gunzTarPerm extractEntry deps/libffi/src/avr32/ffi.c
+220 silly gunzTarPerm extractEntry deps/libffi/src/avr32/ffitarget.h
+221 silly gunzTarPerm extractEntry deps/libffi/src/avr32/sysv.S
+222 silly gunzTarPerm extractEntry deps/libffi/src/closures.c
+223 silly gunzTarPerm extractEntry deps/libffi/src/cris/ffi.c
+224 silly gunzTarPerm extractEntry deps/libffi/src/cris/ffitarget.h
+225 silly gunzTarPerm extractEntry deps/libffi/src/cris/sysv.S
+226 silly gunzTarPerm extractEntry deps/libffi/src/debug.c
+227 silly gunzTarPerm extractEntry deps/libffi/src/dlmalloc.c
+228 silly gunzTarPerm extractEntry deps/libffi/src/frv/eabi.S
+229 silly gunzTarPerm extractEntry deps/libffi/src/frv/ffi.c
+230 silly gunzTarPerm extractEntry deps/libffi/src/frv/ffitarget.h
+231 silly gunzTarPerm extractEntry deps/libffi/src/ia64/ffi.c
+232 silly gunzTarPerm extractEntry deps/libffi/src/ia64/ffitarget.h
+233 silly gunzTarPerm extractEntry deps/libffi/src/ia64/ia64_flags.h
+234 silly gunzTarPerm extractEntry deps/libffi/src/ia64/unix.S
+235 silly gunzTarPerm extractEntry deps/libffi/src/java_raw_api.c
+236 silly gunzTarPerm extractEntry deps/libffi/src/m32r/ffi.c
+237 silly gunzTarPerm extractEntry deps/libffi/src/m32r/ffitarget.h
+238 silly gunzTarPerm extractEntry deps/libffi/src/m32r/sysv.S
+239 silly gunzTarPerm extractEntry deps/libffi/src/m68k/ffi.c
+240 silly gunzTarPerm extractEntry deps/libffi/src/m68k/ffitarget.h
+241 silly gunzTarPerm extractEntry deps/libffi/src/m68k/sysv.S
+242 silly gunzTarPerm extractEntry deps/libffi/src/arm/ffi.c
+243 silly gunzTarPerm extractEntry deps/libffi/src/arm/ffitarget.h
+244 silly gunzTarPerm extractEntry deps/libffi/src/arm/gentramp.sh
+245 silly gunzTarPerm extractEntry deps/libffi/src/arm/sysv.S
+246 silly gunzTarPerm extractEntry deps/libffi/src/arm/trampoline.S
+247 silly gunzTarPerm extractEntry deps/libffi/src/moxie/eabi.S
+248 silly gunzTarPerm extractEntry deps/libffi/src/moxie/ffi.c
+249 silly gunzTarPerm extractEntry deps/libffi/src/pa/ffi.c
+250 silly gunzTarPerm extractEntry deps/libffi/src/pa/ffitarget.h
+251 silly gunzTarPerm extractEntry deps/libffi/src/pa/hpux32.S
+252 silly gunzTarPerm extractEntry deps/libffi/src/pa/linux.S
+253 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ffi_darwin.c
+254 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/aix.S
+255 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/asm.h
+256 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/darwin.S
+257 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/darwin_closure.S
+258 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ffi.c
+259 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/aix_closure.S
+260 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ffitarget.h
+261 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/linux64.S
+262 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/linux64_closure.S
+263 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/ppc_closure.S
+264 silly gunzTarPerm extractEntry deps/libffi/src/powerpc/sysv.S
+265 silly gunzTarPerm extractEntry deps/libffi/src/prep_cif.c
+266 silly gunzTarPerm extractEntry deps/libffi/src/raw_api.c
+267 silly gunzTarPerm extractEntry deps/libffi/src/s390/ffi.c
+268 silly gunzTarPerm extractEntry deps/libffi/src/s390/ffitarget.h
+269 silly gunzTarPerm extractEntry deps/libffi/src/s390/sysv.S
+270 silly gunzTarPerm extractEntry deps/libffi/src/sh/ffi.c
+271 silly gunzTarPerm extractEntry deps/libffi/src/sh/ffitarget.h
+272 silly gunzTarPerm extractEntry deps/libffi/src/sh/sysv.S
+273 silly gunzTarPerm extractEntry deps/libffi/src/sh64/ffi.c
+274 silly gunzTarPerm extractEntry deps/libffi/src/sh64/ffitarget.h
+275 silly gunzTarPerm extractEntry deps/libffi/src/sh64/sysv.S
+276 silly gunzTarPerm extractEntry deps/libffi/src/sparc/ffi.c
+277 silly gunzTarPerm extractEntry deps/libffi/src/sparc/ffitarget.h
+278 silly gunzTarPerm extractEntry deps/libffi/src/sparc/v8.S
+279 silly gunzTarPerm extractEntry deps/libffi/src/sparc/v9.S
+280 silly gunzTarPerm extractEntry deps/libffi/src/types.c
+281 silly gunzTarPerm extractEntry deps/libffi/src/x86/sysv.S
+282 silly gunzTarPerm extractEntry deps/libffi/src/x86/darwin.S
+283 silly gunzTarPerm extractEntry deps/libffi/src/x86/ffi.c
+284 silly gunzTarPerm extractEntry deps/libffi/src/x86/ffi64.c
+285 silly gunzTarPerm extractEntry deps/libffi/src/x86/ffitarget.h
+286 silly gunzTarPerm extractEntry deps/libffi/src/x86/freebsd.S
+287 silly gunzTarPerm extractEntry deps/libffi/src/x86/darwin64.S
+288 silly gunzTarPerm extractEntry deps/libffi/src/x86/unix64.S
+289 silly gunzTarPerm extractEntry deps/libffi/src/x86/win32.asm
+290 silly gunzTarPerm extractEntry deps/libffi/src/x86/win32.S
+291 silly gunzTarPerm extractEntry deps/libffi/src/x86/win64.asm
+292 silly gunzTarPerm extractEntry deps/libffi/src/x86/win64.S
+293 silly gunzTarPerm extractEntry deps/libffi/test.c
+294 silly gunzTarPerm extractEntry deps/libffi/testsuite/config/default.exp
+295 silly gunzTarPerm extractEntry deps/libffi/testsuite/lib/libffi.exp
+296 silly gunzTarPerm extractEntry deps/libffi/testsuite/lib/target-libpath.exp
+297 silly gunzTarPerm extractEntry deps/libffi/testsuite/lib/wrapper.exp
+298 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_ulonglong.c
+299 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/a.out
+300 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn0.c
+301 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn1.c
+302 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn2.c
+303 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn3.c
+304 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn4.c
+305 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn5.c
+306 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_fn6.c
+307 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_loc_fn0.c
+308 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_stdcall.c
+309 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/closure_thiscall.c
+310 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_12byte.c
+311 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_16byte.c
+312 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_18byte.c
+313 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_19byte.c
+314 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_1_1byte.c
+315 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_20byte.c
+316 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_20byte1.c
+317 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_24byte.c
+318 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_2byte.c
+319 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_3_1byte.c
+320 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_3byte1.c
+321 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_3byte2.c
+322 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_4_1byte.c
+323 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_4byte.c
+324 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_5_1_byte.c
+325 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_5byte.c
+326 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_64byte.c
+327 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_6_1_byte.c
+328 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_6byte.c
+329 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_7_1_byte.c
+330 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_7byte.c
+331 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_8byte.c
+332 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_9byte1.c
+333 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_9byte2.c
+334 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_double.c
+335 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_float.c
+336 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_longdouble.c
+337 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_longdouble_split.c
+338 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_longdouble_split2.c
+339 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_pointer.c
+340 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_sint16.c
+341 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_sint32.c
+342 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_sint64.c
+343 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_uint16.c
+344 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_uint32.c
+345 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_align_uint64.c
+346 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_dbls_struct.c
+347 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_double.c
+348 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_double_va.c
+349 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_float.c
+350 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_longdouble.c
+351 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_longdouble_va.c
+352 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_schar.c
+353 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_sshort.c
+354 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_sshortchar.c
+355 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_uchar.c
+356 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_ushort.c
+357 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_multi_ushortchar.c
+358 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_pointer.c
+359 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_pointer_stack.c
+360 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_schar.c
+361 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_sint.c
+362 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_sshort.c
+363 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_uchar.c
+364 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_uint.c
+365 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/call.exp
+366 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/cls_ushort.c
+367 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/err_bad_abi.c
+368 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/err_bad_typedef.c
+369 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/fastthis1_win32.c
+370 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/fastthis2_win32.c
+371 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/fastthis3_win32.c
+372 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/ffitest.h
+373 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float.c
+374 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float1.c
+375 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float2.c
+376 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float3.c
+377 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float4.c
+378 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/float_va.c
+379 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/huge_struct.c
+380 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many.c
+381 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many2.c
+382 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many2_win32.c
+383 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/many_win32.c
+384 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/negint.c
+385 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct.c
+386 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct1.c
+387 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct10.c
+388 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct2.c
+389 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct3.c
+390 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct4.c
+391 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct5.c
+392 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct6.c
+393 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct7.c
+394 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct8.c
+395 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/nested_struct9.c
+396 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/problem1.c
+397 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/promotion.c
+398 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/pyobjc-tc.c
+399 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_dbl.c
+400 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_dbl1.c
+401 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_dbl2.c
+402 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl.c
+403 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl1.c
+404 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl2.c
+405 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_fl3.c
+406 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ldl.c
+407 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ll.c
+408 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ll1.c
+409 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_sc.c
+410 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_sl.c
+411 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_uc.c
+412 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/return_ul.c
+413 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_large.c
+414 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_large2.c
+415 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_medium.c
+416 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/stret_medium2.c
+417 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/strlen.c
+418 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/strlen2_win32.c
+419 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/strlen_win32.c
+420 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct1.c
+421 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct1_win32.c
+422 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct2.c
+423 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct2_win32.c
+424 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct3.c
+425 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct4.c
+426 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct5.c
+427 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct6.c
+428 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct7.c
+429 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct8.c
+430 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/struct9.c
+431 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.call/testclosure.c
+432 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/ffitestcxx.h
+433 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/special.exp
+434 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/unwindtest.cc
+435 silly gunzTarPerm extractEntry deps/libffi/testsuite/libffi.special/unwindtest_ffi_call.cc
+436 silly gunzTarPerm extractEntry deps/libffi/testsuite/Makefile.am
+437 silly gunzTarPerm extractEntry deps/libffi/testsuite/Makefile.in
+438 silly gunzTarPerm extractEntry deps/libffi/include/ffi.h.in
+439 silly gunzTarPerm extractEntry deps/libffi/include/ffi_common.h
+440 silly gunzTarPerm extractEntry deps/libffi/include/Makefile.am
+441 silly gunzTarPerm extractEntry deps/libffi/include/Makefile.in
+442 silly gunzTarPerm extractEntry deps/pthreads-win32/README
+443 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_getkind_np.c
+444 silly gunzTarPerm extractEntry deps/pthreads-win32/autostatic.c
+445 silly gunzTarPerm extractEntry deps/pthreads-win32/barrier.c
+446 silly gunzTarPerm extractEntry deps/pthreads-win32/Bmakefile
+447 silly gunzTarPerm extractEntry deps/pthreads-win32/BUGS
+448 silly gunzTarPerm extractEntry deps/pthreads-win32/builddmc.bat
+449 silly gunzTarPerm extractEntry deps/pthreads-win32/cancel.c
+450 silly gunzTarPerm extractEntry deps/pthreads-win32/ChangeLog
+451 silly gunzTarPerm extractEntry deps/pthreads-win32/cleanup.c
+452 silly gunzTarPerm extractEntry deps/pthreads-win32/condvar.c
+453 silly gunzTarPerm extractEntry deps/pthreads-win32/config.h
+454 silly gunzTarPerm extractEntry deps/pthreads-win32/context.h
+455 silly gunzTarPerm extractEntry deps/pthreads-win32/CONTRIBUTORS
+456 silly gunzTarPerm extractEntry deps/pthreads-win32/COPYING
+457 silly gunzTarPerm extractEntry deps/pthreads-win32/COPYING.LIB
+458 silly gunzTarPerm extractEntry deps/pthreads-win32/create.c
+459 silly gunzTarPerm extractEntry deps/pthreads-win32/dll.c
+460 silly gunzTarPerm extractEntry deps/pthreads-win32/errno.c
+461 silly gunzTarPerm extractEntry deps/pthreads-win32/exit.c
+462 silly gunzTarPerm extractEntry deps/pthreads-win32/FAQ
+463 silly gunzTarPerm extractEntry deps/pthreads-win32/fork.c
+464 silly gunzTarPerm extractEntry deps/pthreads-win32/global.c
+465 silly gunzTarPerm extractEntry deps/pthreads-win32/GNUmakefile
+466 silly gunzTarPerm extractEntry deps/pthreads-win32/implement.h
+467 silly gunzTarPerm extractEntry deps/pthreads-win32/MAINTAINERS
+468 silly gunzTarPerm extractEntry deps/pthreads-win32/Makefile
+469 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_mutexattr_setpshared.html
+470 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/ChangeLog
+471 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/PortabilityIssues.html
+472 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_attr_init.html
+473 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_attr_setstackaddr.html
+474 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_attr_setstacksize.html
+475 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_barrier_init.html
+476 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_barrier_wait.html
+477 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_barrierattr_init.html
+478 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_barrierattr_setpshared.html
+479 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_cancel.html
+480 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_cleanup_push.html
+481 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_cond_init.html
+482 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_condattr_init.html
+483 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_condattr_setpshared.html
+484 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_create.html
+485 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_delay_np.html
+486 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_detach.html
+487 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_equal.html
+488 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_exit.html
+489 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_getunique_np.html
+490 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_getw32threadhandle_np.html
+491 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_join.html
+492 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_key_create.html
+493 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_kill.html
+494 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_mutex_init.html
+495 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_mutexattr_init.html
+496 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/index.html
+497 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_num_processors_np.html
+498 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_once.html
+499 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_init.html
+500 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_rdlock.html
+501 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_timedrdlock.html
+502 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_timedwrlock.html
+503 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_unlock.html
+504 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlock_wrlock.html
+505 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlockattr_init.html
+506 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_rwlockattr_setpshared.html
+507 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_self.html
+508 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_setcancelstate.html
+509 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_setcanceltype.html
+510 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_setconcurrency.html
+511 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_setschedparam.html
+512 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_spin_init.html
+513 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_spin_lock.html
+514 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_spin_unlock.html
+515 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_timechange_handler_np.html
+516 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_win32_attach_detach_np.html
+517 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthread_win32_test_features_np.html
+518 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/pthreadCancelableWait.html
+519 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/sched_get_priority_max.html
+520 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/sched_getscheduler.html
+521 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/sched_setscheduler.html
+522 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/sched_yield.html
+523 silly gunzTarPerm extractEntry deps/pthreads-win32/manual/sem_init.html
+524 silly gunzTarPerm extractEntry deps/pthreads-win32/misc.c
+525 silly gunzTarPerm extractEntry deps/pthreads-win32/mutex.c
+526 silly gunzTarPerm extractEntry deps/pthreads-win32/need_errno.h
+527 silly gunzTarPerm extractEntry deps/pthreads-win32/NEWS
+528 silly gunzTarPerm extractEntry deps/pthreads-win32/Nmakefile
+529 silly gunzTarPerm extractEntry deps/pthreads-win32/Nmakefile.tests
+530 silly gunzTarPerm extractEntry deps/pthreads-win32/nonportable.c
+531 silly gunzTarPerm extractEntry deps/pthreads-win32/private.c
+532 silly gunzTarPerm extractEntry deps/pthreads-win32/PROGRESS
+533 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread.c
+534 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread.dsp
+535 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread.dsw
+536 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread.gyp
+537 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread.h
+538 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_destroy.c
+539 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getdetachstate.c
+540 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getinheritsched.c
+541 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getschedparam.c
+542 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getschedpolicy.c
+543 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getscope.c
+544 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getstackaddr.c
+545 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_getstacksize.c
+546 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_init.c
+547 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setdetachstate.c
+548 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setinheritsched.c
+549 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setschedparam.c
+550 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setschedpolicy.c
+551 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setscope.c
+552 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setstackaddr.c
+553 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_attr_setstacksize.c
+554 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrier_destroy.c
+555 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrier_init.c
+556 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrier_wait.c
+557 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrierattr_destroy.c
+558 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrierattr_getpshared.c
+559 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrierattr_init.c
+560 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_barrierattr_setpshared.c
+561 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_cancel.c
+562 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_cond_destroy.c
+563 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_cond_init.c
+564 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_cond_signal.c
+565 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_cond_wait.c
+566 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_condattr_destroy.c
+567 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_condattr_getpshared.c
+568 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_condattr_init.c
+569 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_condattr_setpshared.c
+570 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_delay_np.c
+571 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_detach.c
+572 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_equal.c
+573 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_exit.c
+574 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_getconcurrency.c
+575 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_getschedparam.c
+576 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_getspecific.c
+577 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_getunique_np.c
+578 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_getw32threadhandle_np.c
+579 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_join.c
+580 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_key_create.c
+581 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_key_delete.c
+582 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_kill.c
+583 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_consistent.c
+584 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_destroy.c
+585 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_init.c
+586 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_lock.c
+587 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_timedlock.c
+588 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_trylock.c
+589 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutex_unlock.c
+590 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_destroy.c
+591 silly gunzTarPerm extractEntry deps/pthreads-win32/attr.c
+592 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_getpshared.c
+593 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_getrobust.c
+594 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_gettype.c
+595 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_init.c
+596 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_setkind_np.c
+597 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_setpshared.c
+598 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_setrobust.c
+599 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_mutexattr_settype.c
+600 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_num_processors_np.c
+601 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_once.c
+602 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_destroy.c
+603 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_init.c
+604 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_rdlock.c
+605 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_timedrdlock.c
+606 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_timedwrlock.c
+607 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_tryrdlock.c
+608 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_trywrlock.c
+609 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_unlock.c
+610 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlock_wrlock.c
+611 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlockattr_destroy.c
+612 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlockattr_getpshared.c
+613 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlockattr_init.c
+614 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_rwlockattr_setpshared.c
+615 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_self.c
+616 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_setcancelstate.c
+617 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_setcanceltype.c
+618 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_setconcurrency.c
+619 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_setschedparam.c
+620 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_setspecific.c
+621 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_spin_destroy.c
+622 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_spin_init.c
+623 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_spin_lock.c
+624 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_spin_trylock.c
+625 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_spin_unlock.c
+626 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_testcancel.c
+627 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_timechange_handler_np.c
+628 silly gunzTarPerm extractEntry deps/pthreads-win32/pthread_win32_attach_detach_np.c
+629 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_calloc.c
+630 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_callUserDestroyRoutines.c
+631 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_cond_check_need_init.c
+632 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_getprocessors.c
+633 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_is_attr.c
+634 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_MCS_lock.c
+635 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_mutex_check_need_init.c
+636 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_new.c
+637 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_processInitialize.c
+638 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_processTerminate.c
+639 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_relmillisecs.c
+640 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_reuse.c
+641 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_rwlock_cancelwrwait.c
+642 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_rwlock_check_need_init.c
+643 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_semwait.c
+644 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_spinlock_check_need_init.c
+645 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_threadDestroy.c
+646 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_threadStart.c
+647 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_throw.c
+648 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_timespec.c
+649 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_tkAssocCreate.c
+650 silly gunzTarPerm extractEntry deps/pthreads-win32/ptw32_tkAssocDestroy.c
+651 silly gunzTarPerm extractEntry deps/pthreads-win32/ANNOUNCE
+652 silly gunzTarPerm extractEntry deps/pthreads-win32/README.Borland
+653 silly gunzTarPerm extractEntry deps/pthreads-win32/README.CV
+654 silly gunzTarPerm extractEntry deps/pthreads-win32/README.NONPORTABLE
+655 silly gunzTarPerm extractEntry deps/pthreads-win32/README.Watcom
+656 silly gunzTarPerm extractEntry deps/pthreads-win32/README.WinCE
+657 silly gunzTarPerm extractEntry deps/pthreads-win32/rwlock.c
+658 silly gunzTarPerm extractEntry deps/pthreads-win32/sched.c
+659 silly gunzTarPerm extractEntry deps/pthreads-win32/sched.h
+660 silly gunzTarPerm extractEntry deps/pthreads-win32/sched_get_priority_max.c
+661 silly gunzTarPerm extractEntry deps/pthreads-win32/sched_get_priority_min.c
+662 silly gunzTarPerm extractEntry deps/pthreads-win32/sched_getscheduler.c
+663 silly gunzTarPerm extractEntry deps/pthreads-win32/sched_setscheduler.c
+664 silly gunzTarPerm extractEntry deps/pthreads-win32/sched_yield.c
+665 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_close.c
+666 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_destroy.c
+667 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_getvalue.c
+668 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_init.c
+669 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_open.c
+670 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_post.c
+671 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_post_multiple.c
+672 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_timedwait.c
+673 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_trywait.c
+674 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_unlink.c
+675 silly gunzTarPerm extractEntry deps/pthreads-win32/sem_wait.c
+676 silly gunzTarPerm extractEntry deps/pthreads-win32/semaphore.c
+677 silly gunzTarPerm extractEntry deps/pthreads-win32/semaphore.h
+678 silly gunzTarPerm extractEntry deps/pthreads-win32/signal.c
+679 silly gunzTarPerm extractEntry deps/pthreads-win32/spin.c
+680 silly gunzTarPerm extractEntry deps/pthreads-win32/sync.c
+681 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/README
+682 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex2e.c
+683 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier3.c
+684 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier4.c
+685 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier5.c
+686 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier6.c
+687 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchlib.c
+688 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest.h
+689 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest1.c
+690 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest2.c
+691 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest3.c
+692 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest4.c
+693 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/benchtest5.c
+694 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Bmakefile
+695 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel1.c
+696 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel2.c
+697 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel3.c
+698 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel4.c
+699 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel5.c
+700 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel6a.c
+701 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel6d.c
+702 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel7.c
+703 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel8.c
+704 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cancel9.c
+705 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/ChangeLog
+706 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cleanup0.c
+707 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cleanup1.c
+708 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cleanup2.c
+709 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/cleanup3.c
+710 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar1.c
+711 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar1_1.c
+712 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar1_2.c
+713 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar2.c
+714 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar2_1.c
+715 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar3.c
+716 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar3_1.c
+717 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar3_2.c
+718 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar3_3.c
+719 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar4.c
+720 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar5.c
+721 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar6.c
+722 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar7.c
+723 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar8.c
+724 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/condvar9.c
+725 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/context1.c
+726 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/count1.c
+727 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/create1.c
+728 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/create2.c
+729 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Debug.dsp
+730 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Debug.dsw
+731 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Debug.plg
+732 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Debug.txt
+733 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/delay1.c
+734 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/delay2.c
+735 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/detach1.c
+736 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/equal1.c
+737 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/errno1.c
+738 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exception1.c
+739 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exception2.c
+740 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exception3.c
+741 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exit1.c
+742 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exit2.c
+743 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exit3.c
+744 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exit4.c
+745 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/exit5.c
+746 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/eyal1.c
+747 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/GNUmakefile
+748 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/inherit1.c
+749 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/join0.c
+750 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/join1.c
+751 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/join2.c
+752 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/join3.c
+753 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/kill1.c
+754 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/loadfree.c
+755 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex1.c
+756 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex1e.c
+757 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex1n.c
+758 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex1r.c
+759 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex2.c
+760 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier2.c
+761 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex2r.c
+762 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex3.c
+763 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex3e.c
+764 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex3r.c
+765 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex4.c
+766 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex5.c
+767 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6.c
+768 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6e.c
+769 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6es.c
+770 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6n.c
+771 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6r.c
+772 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6rs.c
+773 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex6s.c
+774 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex7.c
+775 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex7e.c
+776 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex7n.c
+777 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex7r.c
+778 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex8.c
+779 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex8e.c
+780 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex8n.c
+781 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/mutex8r.c
+782 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/once1.c
+783 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/once2.c
+784 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/once3.c
+785 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/once4.c
+786 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/openmp1.c
+787 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/priority1.c
+788 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/priority2.c
+789 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/barrier1.c
+790 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/README.BENCHTESTS
+791 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/reuse1.c
+792 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/reuse2.c
+793 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/robust1.c
+794 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/robust2.c
+795 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/robust3.c
+796 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/robust4.c
+797 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/robust5.c
+798 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock1.c
+799 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock2.c
+800 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock2_t.c
+801 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock3.c
+802 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock3_t.c
+803 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock4.c
+804 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock4_t.c
+805 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock5.c
+806 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock5_t.c
+807 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock6.c
+808 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock6_t.c
+809 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock6_t2.c
+810 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock7.c
+811 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/rwlock8.c
+812 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/self1.c
+813 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/self2.c
+814 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore1.c
+815 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore2.c
+816 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore3.c
+817 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore4.c
+818 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore4t.c
+819 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/semaphore5.c
+820 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/sequence1.c
+821 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/sizes.c
+822 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/SIZES.GC
+823 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/SIZES.GCE
+824 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/SIZES.VC
+825 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/SIZES.VCE
+826 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/SIZES.VSE
+827 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/spin1.c
+828 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/spin2.c
+829 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/spin3.c
+830 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/spin4.c
+831 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/stress1.c
+832 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/test.h
+833 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/tryentercs.c
+834 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/tryentercs2.c
+835 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/tsd1.c
+836 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/tsd2.c
+837 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/valid1.c
+838 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/valid2.c
+839 silly gunzTarPerm extractEntry deps/pthreads-win32/tests/Wmakefile
+840 silly gunzTarPerm extractEntry deps/pthreads-win32/TODO
+841 silly gunzTarPerm extractEntry deps/pthreads-win32/tsd.c
+842 silly gunzTarPerm extractEntry deps/pthreads-win32/version.rc
+843 silly gunzTarPerm extractEntry deps/pthreads-win32/w32_CancelableWait.c
+844 silly gunzTarPerm extractEntry deps/pthreads-win32/WinCE-PORT
+845 silly gunzTarPerm extractEntry src/callback_info.cc
+846 silly gunzTarPerm extractEntry src/ffi.cc
+847 silly gunzTarPerm extractEntry src/ffi.h
+848 silly gunzTarPerm extractEntry src/threaded_callback_invokation.cc
+849 silly gunzTarPerm extractEntry doc/benchmark.js
+850 silly gunzTarPerm extractEntry doc/benchmark.txt
+851 silly gunzTarPerm extractEntry lib/_foreign_function.js
+852 silly gunzTarPerm extractEntry lib/callback.js
+853 silly gunzTarPerm extractEntry lib/cif.js
+854 silly gunzTarPerm extractEntry lib/cif_var.js
+855 silly gunzTarPerm extractEntry lib/dynamic_library.js
+856 silly gunzTarPerm extractEntry lib/bindings.js
+857 silly gunzTarPerm extractEntry lib/ffi.js
+858 silly gunzTarPerm extractEntry lib/foreign_function.js
+859 silly gunzTarPerm extractEntry lib/foreign_function_var.js
+860 silly gunzTarPerm extractEntry lib/library.js
+861 silly gunzTarPerm extractEntry lib/type.js
+862 silly gunzTarPerm extractEntry lib/errno.js
+863 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/package.json
+864 silly lockFile 1be8b902-dules-exec-sync-node-modules-ffi /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi
+865 info preinstall ffi@1.1.2
+866 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/package.json
+867 verbose readDependencies using package.json deps
+868 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/package.json
+869 verbose readDependencies using package.json deps
+870 verbose cache add [ 'bindings@*', null ]
+871 verbose cache add name=undefined spec="bindings@*" args=["bindings@*",null]
+872 verbose parsed url { pathname: 'bindings@*',
+872 verbose parsed url   path: 'bindings@*',
+872 verbose parsed url   href: 'bindings@*' }
+873 verbose cache add name="bindings" spec="*" args=["bindings","*"]
+874 verbose parsed url { pathname: '*', path: '*', href: '*' }
+875 verbose addNamed [ 'bindings', '*' ]
+876 verbose addNamed [ null, '' ]
+877 silly lockFile a3858fc2-bindings bindings@*
+878 verbose lock bindings@* /Users/aunsoyjoven/.npm/a3858fc2-bindings.lock
+879 verbose cache add [ 'debug@*', null ]
+880 verbose cache add name=undefined spec="debug@*" args=["debug@*",null]
+881 verbose parsed url { pathname: 'debug@*', path: 'debug@*', href: 'debug@*' }
+882 verbose cache add name="debug" spec="*" args=["debug","*"]
+883 verbose parsed url { pathname: '*', path: '*', href: '*' }
+884 verbose addNamed [ 'debug', '*' ]
+885 verbose addNamed [ null, '' ]
+886 silly lockFile 3ac45eff-debug debug@*
+887 verbose lock debug@* /Users/aunsoyjoven/.npm/3ac45eff-debug.lock
+888 silly addNameRange { name: 'bindings', range: '', hasData: false }
+889 silly addNameRange { name: 'debug', range: '', hasData: false }
+890 verbose cache add [ 'ref@*', null ]
+891 verbose cache add name=undefined spec="ref@*" args=["ref@*",null]
+892 verbose parsed url { pathname: 'ref@*', path: 'ref@*', href: 'ref@*' }
+893 verbose cache add name="ref" spec="*" args=["ref","*"]
+894 verbose parsed url { pathname: '*', path: '*', href: '*' }
+895 verbose addNamed [ 'ref', '*' ]
+896 verbose addNamed [ null, '' ]
+897 silly lockFile 905fdac8-ref ref@*
+898 verbose lock ref@* /Users/aunsoyjoven/.npm/905fdac8-ref.lock
+899 verbose cache add [ 'ref-struct@*', null ]
+900 verbose cache add name=undefined spec="ref-struct@*" args=["ref-struct@*",null]
+901 verbose parsed url { pathname: 'ref-struct@*',
+901 verbose parsed url   path: 'ref-struct@*',
+901 verbose parsed url   href: 'ref-struct@*' }
+902 verbose cache add name="ref-struct" spec="*" args=["ref-struct","*"]
+903 verbose parsed url { pathname: '*', path: '*', href: '*' }
+904 verbose addNamed [ 'ref-struct', '*' ]
+905 verbose addNamed [ null, '' ]
+906 silly lockFile 20ab9ce6-ref-struct ref-struct@*
+907 verbose lock ref-struct@* /Users/aunsoyjoven/.npm/20ab9ce6-ref-struct.lock
+908 silly addNameRange { name: 'ref', range: '', hasData: false }
+909 silly addNameRange { name: 'ref-struct', range: '', hasData: false }
+910 verbose url raw debug
+911 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+912 verbose url resolved https://registry.npmjs.org/debug
+913 info trying registry request attempt 1 at 16:13:21
+914 verbose etag "59L4YP5FCLQ12PWWFDMQNAGM1"
+915 http GET https://registry.npmjs.org/debug
+916 verbose url raw bindings
+917 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
+918 verbose url resolved https://registry.npmjs.org/bindings
+919 info trying registry request attempt 1 at 16:13:21
+920 verbose etag "7XY8NXB0V66WV5PER1NNX0ONI"
+921 http GET https://registry.npmjs.org/bindings
+922 verbose url raw ref
+923 verbose url resolving [ 'https://registry.npmjs.org/', './ref' ]
+924 verbose url resolved https://registry.npmjs.org/ref
+925 info trying registry request attempt 1 at 16:13:21
+926 verbose etag "73WLR9KT86UQWM9FUKANNSMOA"
+927 http GET https://registry.npmjs.org/ref
+928 verbose url raw ref-struct
+929 verbose url resolving [ 'https://registry.npmjs.org/', './ref-struct' ]
+930 verbose url resolved https://registry.npmjs.org/ref-struct
+931 info trying registry request attempt 1 at 16:13:21
+932 verbose etag "8AH96O03RGHGGOQRQUGVX16SL"
+933 http GET https://registry.npmjs.org/ref-struct
+934 http 304 https://registry.npmjs.org/debug
+935 silly registry.get cb [ 304,
+935 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+935 silly registry.get     etag: '"59L4YP5FCLQ12PWWFDMQNAGM1"',
+935 silly registry.get     date: 'Tue, 22 Jan 2013 22:12:47 GMT',
+935 silly registry.get     'content-length': '0' } ]
+936 verbose etag debug from cache
+937 silly addNameRange number 2 { name: 'debug', range: '', hasData: true }
+938 silly addNameRange versions [ 'debug',
+938 silly addNameRange   [ '0.0.1',
+938 silly addNameRange     '0.1.0',
+938 silly addNameRange     '0.2.0',
+938 silly addNameRange     '0.3.0',
+938 silly addNameRange     '0.4.0',
+938 silly addNameRange     '0.4.1',
+938 silly addNameRange     '0.5.0',
+938 silly addNameRange     '0.6.0',
+938 silly addNameRange     '0.7.0' ] ]
+939 verbose addNamed [ 'debug', '0.7.0' ]
+940 verbose addNamed [ '0.7.0', '0.7.0' ]
+941 silly lockFile a3c3658f-debug-0-7-0 debug@0.7.0
+942 verbose lock debug@0.7.0 /Users/aunsoyjoven/.npm/a3c3658f-debug-0-7-0.lock
+943 verbose read json /Users/aunsoyjoven/.npm/debug/0.7.0/package/package.json
+944 silly lockFile a3c3658f-debug-0-7-0 debug@0.7.0
+945 silly lockFile 3ac45eff-debug debug@*
+946 http 304 https://registry.npmjs.org/bindings
+947 silly registry.get cb [ 304,
+947 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+947 silly registry.get     etag: '"7XY8NXB0V66WV5PER1NNX0ONI"',
+947 silly registry.get     date: 'Tue, 22 Jan 2013 22:12:47 GMT',
+947 silly registry.get     'content-length': '0' } ]
+948 verbose etag bindings from cache
+949 http 304 https://registry.npmjs.org/ref
+950 silly registry.get cb [ 304,
+950 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+950 silly registry.get     etag: '"73WLR9KT86UQWM9FUKANNSMOA"',
+950 silly registry.get     date: 'Tue, 22 Jan 2013 22:12:47 GMT',
+950 silly registry.get     'content-length': '0' } ]
+951 verbose etag ref from cache
+952 http 304 https://registry.npmjs.org/ref-struct
+953 silly registry.get cb [ 304,
+953 silly registry.get   { server: 'CouchDB/1.2.1 (Erlang OTP/R15B)',
+953 silly registry.get     etag: '"8AH96O03RGHGGOQRQUGVX16SL"',
+953 silly registry.get     date: 'Tue, 22 Jan 2013 22:12:47 GMT',
+953 silly registry.get     'content-length': '0' } ]
+954 verbose etag ref-struct from cache
+955 silly addNameRange number 2 { name: 'bindings', range: '', hasData: true }
+956 silly addNameRange versions [ 'bindings',
+956 silly addNameRange   [ '0.0.1',
+956 silly addNameRange     '0.1.0',
+956 silly addNameRange     '0.1.1',
+956 silly addNameRange     '0.2.0',
+956 silly addNameRange     '0.2.1',
+956 silly addNameRange     '0.2.2',
+956 silly addNameRange     '0.2.3',
+956 silly addNameRange     '0.2.4',
+956 silly addNameRange     '0.3.0',
+956 silly addNameRange     '0.4.0',
+956 silly addNameRange     '1.0.0' ] ]
+957 verbose addNamed [ 'bindings', '1.0.0' ]
+958 verbose addNamed [ '1.0.0', '1.0.0' ]
+959 silly lockFile f01e5454-bindings-1-0-0 bindings@1.0.0
+960 verbose lock bindings@1.0.0 /Users/aunsoyjoven/.npm/f01e5454-bindings-1-0-0.lock
+961 silly addNameRange number 2 { name: 'ref', range: '', hasData: true }
+962 silly addNameRange versions [ 'ref',
+962 silly addNameRange   [ '0.0.1',
+962 silly addNameRange     '0.0.2',
+962 silly addNameRange     '0.0.3',
+962 silly addNameRange     '0.0.4',
+962 silly addNameRange     '0.0.5',
+962 silly addNameRange     '0.0.6',
+962 silly addNameRange     '0.0.7',
+962 silly addNameRange     '0.0.8',
+962 silly addNameRange     '0.0.9',
+962 silly addNameRange     '0.0.10',
+962 silly addNameRange     '0.0.11',
+962 silly addNameRange     '0.0.12',
+962 silly addNameRange     '0.0.13',
+962 silly addNameRange     '0.0.14',
+962 silly addNameRange     '0.0.15',
+962 silly addNameRange     '0.0.16',
+962 silly addNameRange     '0.0.17',
+962 silly addNameRange     '0.0.18',
+962 silly addNameRange     '0.0.19',
+962 silly addNameRange     '0.0.20',
+962 silly addNameRange     '0.1.0',
+962 silly addNameRange     '0.1.1',
+962 silly addNameRange     '0.1.2',
+962 silly addNameRange     '0.1.3' ] ]
+963 verbose addNamed [ 'ref', '0.1.3' ]
+964 verbose addNamed [ '0.1.3', '0.1.3' ]
+965 silly lockFile 212d56bc-ref-0-1-3 ref@0.1.3
+966 verbose lock ref@0.1.3 /Users/aunsoyjoven/.npm/212d56bc-ref-0-1-3.lock
+967 verbose read json /Users/aunsoyjoven/.npm/bindings/1.0.0/package/package.json
+968 verbose read json /Users/aunsoyjoven/.npm/ref/0.1.3/package/package.json
+969 silly addNameRange number 2 { name: 'ref-struct', range: '', hasData: true }
+970 silly addNameRange versions [ 'ref-struct', [ '0.0.1', '0.0.2', '0.0.3', '0.0.4' ] ]
+971 verbose addNamed [ 'ref-struct', '0.0.4' ]
+972 verbose addNamed [ '0.0.4', '0.0.4' ]
+973 silly lockFile f776ff6a-ref-struct-0-0-4 ref-struct@0.0.4
+974 verbose lock ref-struct@0.0.4 /Users/aunsoyjoven/.npm/f776ff6a-ref-struct-0-0-4.lock
+975 verbose read json /Users/aunsoyjoven/.npm/ref-struct/0.0.4/package/package.json
+976 silly lockFile f01e5454-bindings-1-0-0 bindings@1.0.0
+977 silly lockFile 212d56bc-ref-0-1-3 ref@0.1.3
+978 silly lockFile a3858fc2-bindings bindings@*
+979 silly lockFile 905fdac8-ref ref@*
+980 silly lockFile f776ff6a-ref-struct-0-0-4 ref-struct@0.0.4
+981 silly lockFile 20ab9ce6-ref-struct ref-struct@*
+982 silly resolved [ { name: 'debug',
+982 silly resolved     version: '0.7.0',
+982 silly resolved     description: 'small debugging utility',
+982 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+982 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+982 silly resolved     dependencies: {},
+982 silly resolved     devDependencies: { mocha: '*' },
+982 silly resolved     main: 'index',
+982 silly resolved     browserify: 'debug.component.js',
+982 silly resolved     engines: { node: '*' },
+982 silly resolved     component: { scripts: [Object] },
+982 silly resolved     readme: '\n# debug\n\n  tiny node.js debugging utility.\n\n## Installation\n\n```\n$ npm install debug\n```\n\n## Example\n\n  This module is modelled after node core\'s debugging technique, allowing you to enable one or more topic-specific debugging functions, for example core does the following within many modules:\n\n```js\nvar debug;\nif (process.env.NODE_DEBUG && /cluster/.test(process.env.NODE_DEBUG)) {\n  debug = function(x) {\n    var prefix = process.pid + \',\' +\n        (process.env.NODE_WORKER_ID ? \'Worker\' : \'Master\');\n    console.error(prefix, x);\n  };\n} else {\n  debug = function() { };\n}\n```\n\n This concept is extremely simple but it works well. With `debug` you simply invoke the exported function to generate your debug function, passing it a name which will determine if a noop function is returned, or a decorated `console.error`, so all of the `console` format string goodies you\'re used to work fine. A unique color is selected per-function for visibility.\n \nExample _app.js_:\n\n```js\nvar debug = require(\'debug\')(\'http\')\n  , http = require(\'http\')\n  , name = \'My App\';\n\n// fake app\n\ndebug(\'booting %s\', name);\n\nhttp.createServer(function(req, res){\n  debug(req.method + \' \' + req.url);\n  res.end(\'hello\\n\');\n}).listen(3000, function(){\n  debug(\'listening\');\n});\n\n// fake worker of some kind\n\nrequire(\'./worker\');\n```\n\nExample _worker.js_:\n\n```js\nvar debug = require(\'debug\')(\'worker\');\n\nsetInterval(function(){\n  debug(\'doing some work\');\n}, 1000);\n```\n\n The __DEBUG__ environment variable is then used to enable these based on space or comma-delimited names. Here are some examples:\n\n  ![debug http and worker](http://f.cl.ly/items/18471z1H402O24072r1J/Screenshot.png)\n\n  ![debug worker](http://f.cl.ly/items/1X413v1a3M0d3C2c1E0i/Screenshot.png)\n\n## Millisecond diff\n\n  When actively developing an application it can be useful to see when the time spent between one `debug()` call and the next. Suppose for example you invoke `debug()` before requesting a resource, and after as well, the "+NNNms" will show you how much time was spent between calls.\n\n  ![](http://f.cl.ly/items/2i3h1d3t121M2Z1A3Q0N/Screenshot.png)\n\n  When stdout is not a TTY, `Date#toUTCString()` is used, making it more useful for logging the debug information as shown below:\n  \n  ![](http://f.cl.ly/items/112H3i0e0o0P0a2Q2r11/Screenshot.png)\n\n## Conventions\n\n If you\'re using this in one or more of your libraries, you _should_ use the name of your library so that developers may toggle debugging as desired without guessing names. If you have more than one debuggers you _should_ prefix them with your library name and use ":" to separate features. For example "bodyParser" from Connect would then be "connect:bodyParser". \n\n## Wildcards\n\n  The "*" character may be used as a wildcard. Suppose for example your library has debuggers named "connect:bodyParser", "connect:compress", "connect:session", instead of listing all three with `DEBUG=connect:bodyParser,connect.compress,connect:session`, you may simply do `DEBUG=connect:*`, or to run everything using this module simply use `DEBUG=*`.\n\n  You can also exclude specific debuggers by prefixing them with a "-" character.  For example, `DEBUG=* -connect:*` would include all debuggers except those starting with "connect:".\n\n## Browser support\n\n Debug works in the browser as well, currently persisted by `localStorage`. For example if you have `worker:a` and `worker:b` as shown below, and wish to debug both type `debug.enable(\'worker:*\')` in the console and refresh the page, this will remain until you disable with `debug.disable()`. \n\n```js\na = debug(\'worker:a\');\nb = debug(\'worker:b\');\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1000);\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1200);\n```\n\n## License \n\n(The MIT License)\n\nCopyright (c) 2011 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.',
+982 silly resolved     readmeFilename: 'Readme.md',
+982 silly resolved     _id: 'debug@0.7.0',
+982 silly resolved     _from: 'debug@*' },
+982 silly resolved   { name: 'bindings',
+982 silly resolved     description: 'Helper module for loading your native module\'s .node file',
+982 silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+982 silly resolved     version: '1.0.0',
+982 silly resolved     author:
+982 silly resolved      { name: 'Nathan Rajlich',
+982 silly resolved        email: 'nathan@tootallnate.net',
+982 silly resolved        url: 'http://tootallnate.net' },
+982 silly resolved     repository:
+982 silly resolved      { type: 'git',
+982 silly resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+982 silly resolved     main: './bindings.js',
+982 silly resolved     readme: 'node-bindings\n=============\n### Helper module for loading your native module\'s .node file\n\nThis is a helper module for authors of Node.js native addon modules.\nIt is basically the "swiss army knife" of `require()`ing your native module\'s\n`.node` file.\n\nThroughout the course of Node\'s native addon history, addons have ended up being\ncompiled in a variety of different places, depending on which build tool and which\nversion of node was used. To make matters worse, now the _gyp_ build tool can\nproduce either a _Release_ or _Debug_ build, each being built into different\nlocations.\n\nThis module checks _all_ the possible locations that a native addon would be built\nat, and returns the first one that loads successfully.\n\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install bindings\n```\n\nOr add it to the `"dependencies"` section of your _package.json_ file.\n\n\nExample\n-------\n\n`require()`ing the proper bindings file for the current node version, platform\nand architecture is as simple as:\n\n``` js\nvar bindings = require(\'bindings\')(\'binding.node\')\n\n// Use your bindings defined in your C files\nbindings.your_c_function()\n```\n\n\nNice Error Output\n-----------------\n\nWhen the `.node` file could not be loaded, `node-bindings` throws an Error with\na nice error message telling you exactly what was tried. You can also check the\n`err.tries` Array property.\n\n```\nError: Could not load the bindings file. Tried:\n → /Users/nrajlich/ref/build/binding.node\n → /Users/nrajlich/ref/build/Debug/binding.node\n → /Users/nrajlich/ref/build/Release/binding.node\n → /Users/nrajlich/ref/out/Debug/binding.node\n → /Users/nrajlich/ref/Debug/binding.node\n → /Users/nrajlich/ref/out/Release/binding.node\n → /Users/nrajlich/ref/Release/binding.node\n → /Users/nrajlich/ref/build/default/binding.node\n → /Users/nrajlich/ref/compiled/0.8.2/darwin/x64/binding.node\n    at bindings (/Users/nrajlich/ref/node_modules/bindings/bindings.js:84:13)\n    at Object.<anonymous> (/Users/nrajlich/ref/lib/ref.js:5:47)\n    at Module._compile (module.js:449:26)\n    at Object.Module._extensions..js (module.js:467:10)\n    at Module.load (module.js:356:32)\n    at Function.Module._load (module.js:312:12)\n    ...\n```\n\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2012 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+982 silly resolved     readmeFilename: 'README.md',
+982 silly resolved     _id: 'bindings@1.0.0',
+982 silly resolved     _from: 'bindings@*' },
+982 silly resolved   { name: 'ref',
+982 silly resolved     description: 'Turn Buffer instances into "pointers"',
+982 silly resolved     keywords:
+982 silly resolved      [ 'native',
+982 silly resolved        'buffer',
+982 silly resolved        'extensions',
+982 silly resolved        'c++',
+982 silly resolved        'pointer',
+982 silly resolved        'reference',
+982 silly resolved        'dereference',
+982 silly resolved        'type',
+982 silly resolved        'int',
+982 silly resolved        'long',
+982 silly resolved        'float',
+982 silly resolved        'double',
+982 silly resolved        'byte',
+982 silly resolved        '64' ],
+982 silly resolved     version: '0.1.3',
+982 silly resolved     author:
+982 silly resolved      { name: 'Nathan Rajlich',
+982 silly resolved        email: 'nathan@tootallnate.net',
+982 silly resolved        url: 'http://tootallnate.net' },
+982 silly resolved     repository: { type: 'git', url: 'git://github.com/TooTallNate/ref.git' },
+982 silly resolved     main: './lib/ref.js',
+982 silly resolved     scripts:
+982 silly resolved      { docs: 'node docs/compile',
+982 silly resolved        test: 'mocha -gc --reporter spec',
+982 silly resolved        install: 'node-gyp rebuild' },
+982 silly resolved     dependencies: { bindings: '*', debug: '*' },
+982 silly resolved     devDependencies:
+982 silly resolved      { dox: '*',
+982 silly resolved        'highlight.js': '1',
+982 silly resolved        jade: '*',
+982 silly resolved        marked: '*',
+982 silly resolved        mocha: '*',
+982 silly resolved        weak: '*' },
+982 silly resolved     engines: { node: '*' },
+982 silly resolved     gypfile: true,
+982 silly resolved     readme: 'ref\n===\n### Turn Buffer instances into "pointers"\n[![Build Status](https://secure.travis-ci.org/TooTallNate/ref.png)](http://travis-ci.org/TooTallNate/ref)\n\n\nThis module is inspired by the old `Pointer` class from node-ffi, but with the\nintent of using Node\'s fast `Buffer` instances instead of a slow C++ `Pointer`\nclass. These two concepts were previously very similar, but now this module\nbrings over the functionality that Pointers had and Buffers are missing, so\nnow Buffers are a lot more powerful.\n\n### Features:\n\n * Get the memory address of any `Buffer` instance\n * Read/write references to JavaScript Objects into `Buffer` instances\n * Read/write `Buffer` instances\' memory addresses to other `Buffer` instances\n * Read/write `int64_t` and `uint64_t` data values (Numbers or Strings)\n * A "type" convention, so that you can specify a buffer as an `int *`,\n   and reference/dereference at will.\n * Offers a buffer instance representing the `NULL` pointer\n\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install ref\n```\n\n\nExamples\n--------\n\n#### referencing and derefencing\n\n``` js\nvar ref = require(\'ref\')\n\n// so we can all agree that a buffer with the int value written\n// to it could be represented as an "int *"\nvar buf = new Buffer(4)\nbuf.writeInt32LE(12345, 0)\n\n// first, what is the memory address of the buffer?\nconsole.log(buf.address())  // ← 140362165284824\n\n// using `ref`, you can set the "type", and gain magic abilities!\nbuf.type = ref.types.int\n\n// now we can dereference to get the "meaningful" value\nconsole.log(buf.deref())  // ← 12345\n\n\n// you can also get references to the original buffer if you need it.\n// this buffer could be thought of as an "int **"\nvar one = buf.ref()\n\n// and you can dereference all the way back down to an int\nconsole.log(one.deref().deref())  // ← 12345\n```\n\nSee the [full API Docs][docs] for more examples.\n\n\nThe "type" interface\n--------------------\n\nYou can easily define your own "type" objects at attach to `Buffer` instances.\nIt just needs to be a regular JavaScript Object that contains the following\nproperties:\n\n| **Name**      | **Data Type**                    | **Description**\n|:--------------|:---------------------------------|:----------------------------------\n| `size`        | Number                           | The size in bytes required to hold this type.\n| `indirection` | Number                           | The current level of indirection of the buffer. Usually this would be _1_, and gets incremented on Buffers from `ref()` calls. A value of less than or equal to _0_ is invalid.\n| `get`         | Function (buffer, offset)        | The function to invoke when dereferencing this type when the indirection level is _1_.\n| `set`         | Function (buffer, offset, value) | The function to invoke when setting a value to a buffer instance.\n| `name`        | String                           | _(optional)_ The name to use during debugging for this type.\n| `alignment`   | Number                           | _(optional)_ The alignment of this type when placed in a struct. Defaults to the type\'s `size`.\n\nFor example, you could define a "bigint" type that dereferences into a\n[`bigint`](https://github.com/substack/node-bigint) instance:\n\n``` js\nvar ref = require(\'ref\')\nvar bigint = require(\'bigint\')\n\n// define the "type" instance according to the spec\nvar BigintType = {\n    size: ref.sizeof.int64\n  , indirection: 1\n  , get: function (buffer, offset) {\n      // return a bigint instance from the buffer\n      return bigint.fromBuffer(buffer)\n    }\n  , set: function (buffer, offset, value) {\n      // \'value\' would be a bigint instance\n      var val = value.toString()\n      return ref.writeInt64(buffer, offset || 0, val)\n    }\n}\n\n// now we can create instances of the type from existing buffers.\n// "buf" is some Buffer instance returned from some external data\n// source, which should contain "bigint" binary data.\nbuf.type = BigintType\n\n// and now you can create "bigint" instances using this generic "types" API\nvar val = buf.deref()\n            .add(\'1234\')\n            .sqrt()\n            .shiftLeft(5)\n```\n\nBuild the docs\n--------------\n\nInstall the dev dependencies:\n\n``` bash\n$ npm install\n```\n\nGenerate the docs:\n\n``` bash\n$ npm run docs\n```\n\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2012 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n[docs]: http://tootallnate.github.com/ref\n',
+982 silly resolved     readmeFilename: 'README.md',
+982 silly resolved     _id: 'ref@0.1.3',
+982 silly resolved     _from: 'ref@*' },
+982 silly resolved   { name: 'ref-struct',
+982 silly resolved     description: 'Create ABI-compliant "struct" instances on top of Buffers',
+982 silly resolved     keywords: [ 'struct', 'ref', 'abi', 'c', 'c++', 'ffi' ],
+982 silly resolved     version: '0.0.4',
+982 silly resolved     author:
+982 silly resolved      { name: 'Nathan Rajlich',
+982 silly resolved        email: 'nathan@tootallnate.net',
+982 silly resolved        url: 'http://tootallnate.net' },
+982 silly resolved     repository:
+982 silly resolved      { type: 'git',
+982 silly resolved        url: 'git://github.com/TooTallNate/ref-struct.git' },
+982 silly resolved     main: './lib/struct.js',
+982 silly resolved     scripts: { test: 'node-gyp rebuild --directory test && mocha -gc --reporter spec' },
+982 silly resolved     dependencies: { debug: '*', ref: '0' },
+982 silly resolved     devDependencies: { mocha: '*', 'ref-array': '*' },
+982 silly resolved     engines: { node: '*' },
+982 silly resolved     readme: 'ref-struct\n==========\n### Create ABI-compliant "[struct][]" instances on top of Buffers\n[![Build Status](https://secure.travis-ci.org/TooTallNate/ref-struct.png)](http://travis-ci.org/TooTallNate/ref-struct)\n\n\nThis module offers a "struct" implementation on top of Node.js Buffers\nusing the ref "type" interface.\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install ref-struct\n```\n\n\nExamples\n--------\n\nSay you wanted to emulate the `timeval` struct from the stdlib:\n\n``` c\nstruct timeval {\n  time_t       tv_sec;   /* seconds since Jan. 1, 1970 */\n  suseconds_t  tv_usec;  /* and microseconds */\n};\n```\n\n``` js\nvar ref = require(\'ref\')\nvar StructType = require(\'ref-struct\')\n\n// define the time types\nvar time_t = ref.types.long\nvar suseconds_t = ref.types.long\n\n// define the "timeval" struct type\nvar timeval = StructType({\n  tv_sec: time_t,\n  tv_usec: suseconds_t\n})\n\n// now we can create instances of it\nvar tv = new timeval\n```\n\n#### With `node-ffi`\n\nThis gets very powerful when combined with `node-ffi` to invoke C functions:\n\n``` js\nvar ffi = require(\'ffi\')\n\nvar tv = new timeval\ngettimeofday(tv.ref(), null)\n```\n\n#### Progressive API\n\nYou can build up a Struct "type" incrementally (useful when interacting with a\nparser) using the `defineProperty()` function. But as soon as you _create_ an\ninstance of the struct type, then the struct type is finalized, and no more\nproperties may be added to it.\n\n``` js\nvar ref = require(\'ref\')\nvar StructType = require(\'ref-struct\')\n\nvar MyStruct = Struct()\nMyStruct.defineProperty(\'width\', ref.types.int)\nMyStruct.defineProperty(\'height\', ref.types.int)\n\nvar i = new MyStruct({ width: 5, height: 10 })\n\nMyStruct.defineProperty(\'weight\', ref.types.int)\n// AssertionError: an instance of this Struct type has already been created, cannot add new "fields" anymore\n//      at Function.defineProperty (/Users/nrajlich/ref-struct/lib/struct.js:180:3)\n```\n\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2012 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n[struct]: http://wikipedia.org/wiki/Struct_(C_programming_language)\n',
+982 silly resolved     readmeFilename: 'README.md',
+982 silly resolved     _id: 'ref-struct@0.0.4',
+982 silly resolved     _from: 'ref-struct@*' } ]
+983 info install debug@0.7.0 into /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi
+984 info install bindings@1.0.0 into /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi
+985 info install ref@0.1.3 into /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi
+986 info install ref-struct@0.0.4 into /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi
+987 info installOne debug@0.7.0
+988 info installOne bindings@1.0.0
+989 info installOne ref@0.1.3
+990 info installOne ref-struct@0.0.4
+991 verbose from cache /Users/aunsoyjoven/.npm/debug/0.7.0/package/package.json
+992 verbose from cache /Users/aunsoyjoven/.npm/bindings/1.0.0/package/package.json
+993 verbose from cache /Users/aunsoyjoven/.npm/ref/0.1.3/package/package.json
+994 verbose from cache /Users/aunsoyjoven/.npm/ref-struct/0.0.4/package/package.json
+995 info /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug unbuild
+996 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug/package.json
+997 info /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings unbuild
+998 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings/package.json
+999 info /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref unbuild
+1000 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref/package.json
+1001 info /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct unbuild
+1002 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct/package.json
+1003 verbose tar unpack /Users/aunsoyjoven/.npm/debug/0.7.0/package.tgz
+1004 verbose tar unpack /Users/aunsoyjoven/.npm/bindings/1.0.0/package.tgz
+1005 verbose tar unpack /Users/aunsoyjoven/.npm/ref/0.1.3/package.tgz
+1006 verbose tar unpack /Users/aunsoyjoven/.npm/ref-struct/0.0.4/package.tgz
+1007 silly lockFile 15794eb9-e-modules-ffi-node-modules-debug /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug
+1008 verbose lock /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug /Users/aunsoyjoven/.npm/15794eb9-e-modules-ffi-node-modules-debug.lock
+1009 silly lockFile 6c234443-odules-ffi-node-modules-bindings /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings
+1010 verbose lock /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings /Users/aunsoyjoven/.npm/6c234443-odules-ffi-node-modules-bindings.lock
+1011 silly lockFile fac2b0dd-ode-modules-ffi-node-modules-ref /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref
+1012 verbose lock /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref /Users/aunsoyjoven/.npm/fac2b0dd-ode-modules-ffi-node-modules-ref.lock
+1013 silly lockFile 2bd0533b-ules-ffi-node-modules-ref-struct /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct
+1014 verbose lock /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct /Users/aunsoyjoven/.npm/2bd0533b-ules-ffi-node-modules-ref-struct.lock
+1015 silly gunzTarPerm modes [ '755', '644' ]
+1016 silly gunzTarPerm modes [ '755', '644' ]
+1017 silly gunzTarPerm modes [ '755', '644' ]
+1018 silly gunzTarPerm modes [ '755', '644' ]
+1019 silly gunzTarPerm extractEntry package.json
+1020 silly gunzTarPerm extractEntry package.json
+1021 silly gunzTarPerm extractEntry package.json
+1022 silly gunzTarPerm extractEntry package.json
+1023 silly gunzTarPerm extractEntry .npmignore
+1024 silly gunzTarPerm extractEntry debug.js
+1025 silly gunzTarPerm extractEntry README.md
+1026 silly gunzTarPerm extractEntry bindings.js
+1027 silly gunzTarPerm extractEntry .npmignore
+1028 silly gunzTarPerm extractEntry README.md
+1029 silly gunzTarPerm extractEntry .npmignore
+1030 silly gunzTarPerm extractEntry README.md
+1031 silly gunzTarPerm extractEntry head.js
+1032 silly gunzTarPerm extractEntry debug.component.js
+1033 silly gunzTarPerm extractEntry .travis.yml
+1034 silly gunzTarPerm extractEntry binding.gyp
+1035 silly gunzTarPerm extractEntry .travis.yml
+1036 silly gunzTarPerm extractEntry History.md
+1037 silly gunzTarPerm extractEntry tail.js
+1038 silly gunzTarPerm extractEntry index.js
+1039 silly gunzTarPerm extractEntry docs/compile.js
+1040 silly gunzTarPerm extractEntry docs/gh-pages.sh
+1041 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-114x114.png
+1042 silly gunzTarPerm extractEntry lib/struct.js
+1043 silly gunzTarPerm extractEntry test/struct.js
+1044 silly gunzTarPerm extractEntry test/binding.gyp
+1045 silly gunzTarPerm extractEntry docs/images/apple-touch-icon-72x72.png
+1046 silly gunzTarPerm extractEntry test/struct_tests.cc
+1047 silly gunzTarPerm extractEntry docs/images/apple-touch-icon.png
+1048 silly gunzTarPerm extractEntry History.md
+1049 silly gunzTarPerm extractEntry lib/debug.js
+1050 silly gunzTarPerm extractEntry docs/images/favicon.ico
+1051 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings/package.json
+1052 silly gunzTarPerm extractEntry Makefile
+1053 silly gunzTarPerm extractEntry example/app.js
+1054 silly gunzTarPerm extractEntry docs/images/ref.pxm
+1055 silly lockFile 6c234443-odules-ffi-node-modules-bindings /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings
+1056 silly gunzTarPerm extractEntry docs/index.jade
+1057 silly gunzTarPerm extractEntry example/wildcards.js
+1058 silly gunzTarPerm extractEntry example/worker.js
+1059 silly gunzTarPerm extractEntry docs/scripts/jquery-1.7.2.min.js
+1060 info preinstall bindings@1.0.0
+1061 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings/package.json
+1062 silly gunzTarPerm extractEntry example/browser.html
+1063 silly gunzTarPerm extractEntry Readme.md
+1064 silly gunzTarPerm extractEntry docs/scripts/main.js
+1065 verbose readDependencies using package.json deps
+1066 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings/package.json
+1067 verbose readDependencies using package.json deps
+1068 silly resolved []
+1069 verbose about to build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings
+1070 info build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings
+1071 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/bindings/package.json
+1072 verbose linkStuff [ false,
+1072 verbose linkStuff   false,
+1072 verbose linkStuff   false,
+1072 verbose linkStuff   '/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules' ]
+1073 info linkStuff bindings@1.0.0
+1074 verbose linkBins bindings@1.0.0
+1075 verbose linkMans bindings@1.0.0
+1076 verbose rebuildBundles bindings@1.0.0
+1077 info install bindings@1.0.0
+1078 silly gunzTarPerm extractEntry docs/stylesheets/base.css
+1079 silly gunzTarPerm extractEntry docs/stylesheets/layout.css
+1080 info postinstall bindings@1.0.0
+1081 silly gunzTarPerm extractEntry docs/stylesheets/skeleton.css
+1082 silly gunzTarPerm extractEntry History.md
+1083 silly gunzTarPerm extractEntry lib/ref.js
+1084 silly gunzTarPerm extractEntry src/binding.cc
+1085 silly gunzTarPerm extractEntry test/address.js
+1086 silly gunzTarPerm extractEntry test/char.js
+1087 silly gunzTarPerm extractEntry test/coerce.js
+1088 silly gunzTarPerm extractEntry test/int64.js
+1089 silly gunzTarPerm extractEntry test/bool.js
+1090 silly gunzTarPerm extractEntry test/object.js
+1091 silly gunzTarPerm extractEntry test/pointer.js
+1092 silly gunzTarPerm extractEntry test/ref-deref.js
+1093 silly gunzTarPerm extractEntry test/reinterpret.js
+1094 silly gunzTarPerm extractEntry test/string.js
+1095 silly gunzTarPerm extractEntry test/alloc.js
+1096 silly gunzTarPerm extractEntry test/types.js
+1097 silly gunzTarPerm extractEntry test/isNull.js
+1098 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct/package.json
+1099 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug/package.json
+1100 silly lockFile 2bd0533b-ules-ffi-node-modules-ref-struct /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct
+1101 info preinstall ref-struct@0.0.4
+1102 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct/package.json
+1103 silly lockFile 15794eb9-e-modules-ffi-node-modules-debug /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug
+1104 verbose readDependencies using package.json deps
+1105 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct/package.json
+1106 verbose readDependencies using package.json deps
+1107 silly resolved []
+1108 verbose about to build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct
+1109 info build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct
+1110 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref-struct/package.json
+1111 verbose linkStuff [ false,
+1111 verbose linkStuff   false,
+1111 verbose linkStuff   false,
+1111 verbose linkStuff   '/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules' ]
+1112 info linkStuff ref-struct@0.0.4
+1113 verbose linkBins ref-struct@0.0.4
+1114 verbose linkMans ref-struct@0.0.4
+1115 verbose rebuildBundles ref-struct@0.0.4
+1116 info preinstall debug@0.7.0
+1117 info install ref-struct@0.0.4
+1118 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug/package.json
+1119 info postinstall ref-struct@0.0.4
+1120 verbose readDependencies using package.json deps
+1121 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug/package.json
+1122 verbose readDependencies using package.json deps
+1123 silly resolved []
+1124 verbose about to build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug
+1125 info build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug
+1126 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/debug/package.json
+1127 verbose linkStuff [ false,
+1127 verbose linkStuff   false,
+1127 verbose linkStuff   false,
+1127 verbose linkStuff   '/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules' ]
+1128 info linkStuff debug@0.7.0
+1129 verbose linkBins debug@0.7.0
+1130 verbose linkMans debug@0.7.0
+1131 verbose rebuildBundles debug@0.7.0
+1132 info install debug@0.7.0
+1133 info postinstall debug@0.7.0
+1134 verbose read json /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref/package.json
+1135 silly lockFile fac2b0dd-ode-modules-ffi-node-modules-ref /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref
+1136 info preinstall ref@0.1.3
+1137 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref/package.json
+1138 verbose readDependencies using package.json deps
+1139 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref/package.json
+1140 verbose readDependencies using package.json deps
+1141 silly resolved []
+1142 verbose about to build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref
+1143 info build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref
+1144 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref/package.json
+1145 verbose linkStuff [ false,
+1145 verbose linkStuff   false,
+1145 verbose linkStuff   false,
+1145 verbose linkStuff   '/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules' ]
+1146 info linkStuff ref@0.1.3
+1147 verbose linkBins ref@0.1.3
+1148 verbose linkMans ref@0.1.3
+1149 verbose rebuildBundles ref@0.1.3
+1150 info install ref@0.1.3
+1151 verbose unsafe-perm in lifecycle false
+1152 verbose set uid from=0 to=502
+1153 silly exec sh "-c" "node-gyp rebuild"
+1154 silly sh,-c,node-gyp rebuild,/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/node_modules/ref spawning
+1155 info postinstall ref@0.1.3
+1156 verbose about to build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi
+1157 info build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi
+1158 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/package.json
+1159 verbose linkStuff [ false,
+1159 verbose linkStuff   false,
+1159 verbose linkStuff   false,
+1159 verbose linkStuff   '/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules' ]
+1160 info linkStuff ffi@1.1.2
+1161 verbose linkBins ffi@1.1.2
+1162 verbose linkMans ffi@1.1.2
+1163 verbose rebuildBundles ffi@1.1.2
+1164 verbose rebuildBundles [ 'bindings', 'debug', 'ref', 'ref-struct' ]
+1165 info install ffi@1.1.2
+1166 verbose unsafe-perm in lifecycle false
+1167 verbose set uid from=0 to=502
+1168 silly exec sh "-c" "node-gyp rebuild"
+1169 silly sh,-c,node-gyp rebuild,/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi spawning
+1170 info ffi@1.1.2 Failed to exec install script
+1171 info /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi unbuild
+1172 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules/ffi/package.json
+1173 info preuninstall ffi@1.1.2
+1174 info uninstall ffi@1.1.2
+1175 verbose false,/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules,/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/node_modules unbuild ffi@1.1.2
+1176 info postuninstall ffi@1.1.2
+1177 verbose about to build /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync
+1178 info /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync unbuild
+1179 verbose from cache /Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules/exec-sync/package.json
+1180 info preuninstall exec-sync@0.1.5
+1181 info uninstall exec-sync@0.1.5
+1182 verbose true,/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules,/Users/aunsoyjoven/Documents/NodeJS/DSLR/node_modules unbuild exec-sync@0.1.5
+1183 info postuninstall exec-sync@0.1.5
+1184 error ffi@1.1.2 install: `node-gyp rebuild`
+1184 error `sh "-c" "node-gyp rebuild"` failed with 1
+1185 error Failed at the ffi@1.1.2 install script.
+1185 error This is most likely a problem with the ffi package,
+1185 error not with npm itself.
+1185 error Tell the author that this fails on your system:
+1185 error     node-gyp rebuild
+1185 error You can get their info via:
+1185 error     npm owner ls ffi
+1185 error There is likely additional logging output above.
+1186 error System Darwin 12.2.0
+1187 error command "node" "/usr/local/bin/npm" "install" "exec-sync"
+1188 error cwd /Users/aunsoyjoven/Documents/NodeJS/DSLR
+1189 error node -v v0.8.17
+1190 error npm -v 1.2.2
+1191 error code ELIFECYCLE
+1192 verbose exit [ 1, true ]
